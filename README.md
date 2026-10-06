@@ -145,18 +145,6 @@ Final epoch: train accuracy ≈ 86.3%, validation accuracy ≈ 85.5%. The small 
 
 ---
 
-## 🚀 Future Improvements
-
-- **Handle class imbalance**: class weights, SMOTE, or tuning the decision threshold below 0.5 to raise recall.
-- **Evaluate with better metrics**: F1-score, ROC-AUC and precision-recall curves.
-- **Hyperparameter tuning**: layer sizes, dropout rate and learning rate via Keras Tuner or Optuna.
-- **Restore best weights**: set `restore_best_weights=True` in early stopping.
-- **Benchmark** against Logistic Regression, Random Forest and XGBoost.
-- **Explainability** with SHAP to see which features drive churn.
-- **Deployment**: wrap the trained model and scaler in a FastAPI/Streamlit app.
-
----
-
 ## 🛠 Getting Started
 
 ```bash
